@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.split.left {
+    background-color: #7F7DEC;
+    height: 475px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.split.right {
+    background-color: #2A292A;
+    height: 475px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+a[href='#'] {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid white;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: green;
+}
+
+.btn:hover {
+    background-color: #5754EC;
+}
+
+.expandir-left .left {
+    width: 90%;
+    transition: 2s;
+}
+
+.expandir-right .right {
+    width: 90%;
+    transition: 2s;
+}
